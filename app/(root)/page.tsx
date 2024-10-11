@@ -1,4 +1,5 @@
 import HeaderBox from '@/components/HeaderBox'
+import TotalBalanceBox from '@/components/TotalBalanceBox'
 
 // import { getAccount, getAccounts } from '@/lib/actions/bank.actions';
 // import { getLoggedInUser } from '@/lib/actions/user.actions';
@@ -19,7 +20,13 @@ const Home = () => {
             subtext="Access and manage your account and transactions efficiently."
           />
 
-   
+          <TotalBalanceBox
+      accounts={[]}
+      totalBanks={1}
+      totalCurrentBalance={1250}
+
+          /> 
+
     
         </header>
 
