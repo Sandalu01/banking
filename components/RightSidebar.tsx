@@ -2,7 +2,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 
-import { countTransactionCategories } from '@/lib/utils'
+import { countTransactionCategories } from '@/lib/utils';  
 
 
 const RightSidebar = ({ user, transactions, banks }: RightSidebarProps) => {
