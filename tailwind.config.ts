@@ -9,6 +9,9 @@ const config: Config = {
   ],
   theme: {
   	extend: {
+		boxShadow: {
+			'chart': '0 4px 6px rgba(0, 0, 0, 0.1)', // Example custom shadow
+		  },
   		colors: {
   			background: 'hsl(var(--background))',
   			foreground: 'hsl(var(--foreground))',
