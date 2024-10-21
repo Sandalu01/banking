@@ -1,3 +1,4 @@
+import Slidebar from "@/components/Sidebar";
 
 
 export default function RootLayout({
@@ -5,9 +6,11 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+
+  const loggedIn= {firstName :"sandalu" , LastName:"Ekanayaka"}
   return (
-<main>
-    slidebar
+<main className="flex h-screen w-full font-inter">
+    {/* <Slidebar{loggedIn}/> */}
     {children}
 </main>
   );
